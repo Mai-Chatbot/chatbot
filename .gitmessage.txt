@@ -1,0 +1,54 @@
+<type>(<scope>): <summary> [Jira-ID]
+# UNCOMMENT THE ABOVE LINE ^^^^^^
+
+# Example: feat(ui): add send button to chatbot [SCRUM-365]
+# Keep subject line under 50 chars | State WHAT & WHY
+
+# |<---- BASIC VISUAL OF WHAT THIS IS ---->|
+# Think of the subject as a short "title" (WHAT) and the body as the detailed explanation (WHY).
+#
+# <subject line>  ← 50 char limit here
+# (blank line)
+# <commit body, wrapped to 72 char per line>
+# <commit body line 2...>
+#
+# Example:
+# feat(ui): add send button to chatbot [SCRUM-365]
+#
+# - Added send button so users can submit questions easily
+# - Moved chat history to the left side for better visibility
+
+# |<---- BODY (max 72 chars per line) ---->|
+# Explain WHAT changed and WHY.
+# You can use bullet points:
+# - Added send button so users can submit questions easily
+# - Moved chat history to the left side for better visibility
+# Mention any side effects or risks:
+# - May require re-testing mobile view
+# - Chat window may need scroll adjustment
+
+# |<---- LINKS / REFERENCES ---->|
+# Jira ID [SCRUM-365], or
+# Closes GitHub issue #99
+
+# |<---- BREAKING CHANGES (Optional) ---->|
+# BREAKING CHANGE: Describe what changed & steps to update.
+# Example: Renamed "Send" button class; update CSS selectors.
+
+# |<---- TYPES ---->|
+# feat     new feature
+# fix      bug fix
+# refactor code change without adding features
+# style    formatting, no code change
+# docs     documentation only
+# test     tests only
+# chore    build/config changes only
+# wip      work in progress (to be squashed)
+
+# |<---- SCOPES (examples only just for reference) ---->|
+# ui             chatbot interface changes
+# messages       sending/receiving messages
+# forms          user input handling
+# docs           documentation
+# setup          project setup or configuration
+# styling        visual design, colours, fonts
